@@ -1,0 +1,90 @@
+TEST CASES 
+
+1. MAIN MENU
+
+TC 1
+Input: 1
+Expected result: The calculator menu is displayed.
+Actual result:The calculator menu is displayed.
+Status:pass
+
+TC 1.1 - Addition
+Input: First number 10, second number 5, operation 1
+Expected result: 15
+Actual result:15 
+Status: pass
+
+TC 1.2 - Division by zero
+Input: First number 10, second number 0, operation 3
+Expected result: The program displays "You cannot divide by 0".
+Actual result:" You cannot divide by 0"
+Status:pass
+
+TC 1.3 - Invalid first number
+Input: hello
+Expected result: The program displays "This is not a valid number" and returns to the main menu.
+Actual result: "This is not a valid number"
+
+
+TC 2
+Input: 2
+Expected result: The Celsius-to-Fahrenheit converter is displayed.
+Actual result:The Celsius-to-Fahrenheit converter is displayed.
+Status:pass
+
+TC 2.1
+Input: 0 degrees Celsius
+Expected result: 32 degrees Fahrenheit
+Actual result:32°F
+Status:pass
+
+TC 2.2
+Input: 100 degrees Celsius
+Expected result: 212 degrees Fahrenheit
+Actual result: 212°F
+Status:pass
+
+
+TC 3
+Input: 3
+Expected result: The even/odd checker is displayed.
+Actual result:The even/odd checker is displayed.
+Status:pass
+
+TC 3.1
+Input: 4
+Expected result: The program displays that the number is even.
+Actual result:"This number is even"
+Status:pass
+
+TC 3.2
+Input: 7
+Expected result: The program displays that the number is odd.
+Actual result:"This number is odd"
+Status:pass
+
+TC 3.3
+Input: 0
+Expected result: The program displays that the number is even.
+Actual result:"This number is even"
+Status:pass
+
+TC 3.4
+Input: hello
+Expected result: The program displays "This is not a valid number" and returns to the main menu.
+Actual result:This is not a valid number
+Status:pass
+
+TC 4
+Input: 4
+Expected result: The program displays Goodbye and exits.
+Actual result:The program displays Goodbye and exits.
+Status:pass
+
+TC 5
+Input: 5
+Expected result: The program displays an invalid choice message and shows the menu again.
+Actual result: Please choose between 1 to 4
+Status:pass
+
+

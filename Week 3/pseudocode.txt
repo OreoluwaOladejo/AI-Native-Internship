@@ -1,0 +1,78 @@
+# PSEUDOCODE:
+
+1. REPEAT the following steps indefinitely:
+
+   1.1 Display the main menu:
+   - Enter 1 for Calculator
+   - Enter 2 for Temperature Converter
+   - Enter 3 for Even/Odd Decision Maker
+   - Enter 4 to Exit
+
+   1.2 Accept the user's choice.
+
+   1.3 IF the choice is 1, THEN:
+   - Display "You have chosen the Calculator"
+   - TRY to:
+     - Ask the user to enter the first number.
+     - Ask the user to enter the second number.
+     - Convert both inputs to numbers.
+   - IF either input is invalid:
+     - Display "This is not a valid number".
+     - Return to the beginning of the main loop.
+   - OTHERWISE:
+     - Display the calculator operations:
+       - 1 for Addition
+       - 2 for Subtraction
+       - 3 for Division
+       - 4 for Multiplication
+     - Accept the operation choice.
+     - TRY to convert the operation choice to an integer.
+     - IF the operation choice is invalid:
+       - Display "This is not a valid number".
+       - Return to the beginning of the main loop.
+     - OTHERWISE:
+       - IF the operation choice is 1:
+         - Add the two numbers and display the result.
+       - ELSE IF the operation choice is 2:
+         - Subtract the second number from the first and display the result.
+       - ELSE IF the operation choice is 3:
+         - IF the second number is zero:
+           - Display "You cannot divide by zero".
+         - ELSE:
+           - Divide the first number by the second and display the result.
+       - ELSE IF the operation choice is 4:
+         - Multiply the two numbers and display the result.
+       - ELSE:
+         - Display "Wrong input. Please enter a valid choice".
+
+   1.4 ELSE IF the choice is 2, THEN:
+   - Display "You have chosen the Celsius to Fahrenheit Converter".
+   - Ask the user to enter a temperature in Celsius.
+   - TRY to convert the input to a number.
+   - IF the input is invalid:
+     - Display "This is not a valid number".
+     - Return to the beginning of the main loop.
+   - OTHERWISE:
+     - Calculate Fahrenheit using the formula:
+       Fahrenheit = (Celsius * 9 / 5) + 32.
+     - Display the temperature in Fahrenheit.
+
+   1.5 ELSE IF the choice is 3, THEN:
+   - Display "You have chosen the Even/Odd Decision Maker".
+   - Ask the user to enter an integer.
+   - TRY to convert the input to an integer.
+   - IF the input is invalid:
+     - Display "This is not a valid number".
+     - Return to the beginning of the main loop.
+   - OTHERWISE:
+     - IF the number divided by 2 has a remainder of zero:
+       - Display "This number is even".
+     - ELSE:
+       - Display "This number is odd".
+
+   1.6 ELSE IF the choice is 4, THEN:
+   - Display "Goodbye".
+   - EXIT the loop.
+
+   1.7 ELSE:
+   - Display "Please choose between 1 and 4".
