@@ -6,6 +6,7 @@ This week I practised working the way professional teams do on GitHub: tracking 
 ## What's in This Folder
 - `README.md`: this file
 - `.gitignore`: tells Git which files to leave out of the repository
+(The `.env` file is included in `.gitignore` because it may contain sensitive information such as API keys, database credentials, and secret configuration values. Excluding it helps prevent these secrets from being accidentally uploaded to GitHub.)
 - `screenshots/`: evidence of the issue, pull request and review
 
 ## Workflow I Followed
@@ -23,18 +24,24 @@ I added a `.gitignore` file so that these are never uploaded:
 - `.vscode/`: my editor's personal settings
 
 ## Issue Link
-https://github.com/OreoluwaOladejo/AI-Native-Internship/issues/1#issue-6463553708
+
+[View Week 8 Issue](https://github.com/OreoluwaOladejo/AI-Native-Internship/issues/1)
 
 ## Commit Message Style
-I used short, specific messages that say what changed, for example:
+I used short, specific commit messages that clearly describe each change:
 - `docs: add Week 8 README and gitignore`
 - `docs: add pull request link to README`
 
 ## Peer Review
-[Write 2 to 3 sentences: who reviewed it, what they commented on, and how you responded.]
+
+My pull request was reviewed by [isagoch].
+Feedback received:
+The reviewer suggested including a brief explanation of why environment files should be excluded using `.gitignore`.
+Response:
+I updated the README to explain that `.env` files may contain sensitive information such as API keys and database credentials, which should not be exposed publicly.
 
 ## Evidence
-![Issue](screenshots/01-issue.png)
-![Pull request](screenshots/02-pull-request.png)
-![Peer review comment](screenshots/03-review-comment.png)
 
+- [Issue Screenshot](screenshots/01-issue.png)
+- [Pull Request](https://github.com/OreoluwaOladejo/AI-Native-Internship/pull/2)
+- [Peer Review Comment]
