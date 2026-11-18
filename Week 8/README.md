@@ -42,6 +42,8 @@ I updated the README to explain that `.env` files may contain sensitive informat
 
 ## Evidence
 
-[link to your issue] → https://github.com/OreoluwaOladejo/AI-Native-Internship/issues/1
-[link to your PR] → https://github.com/OreoluwaOladejo/AI-Native-Internship/pull/2
-[friend's GitHub username] → isagoch
+## Evidence
+
+- **GitHub Issue:** [View Issue #1](https://github.com/OreoluwaOladejo/AI-Native-Internship/issues/1)
+- **Pull Request:** [View Pull Request #2](https://github.com/OreoluwaOladejo/AI-Native-Internship/pull/2)
+- **Peer Reviewer:** [@isagoch](https://github.com/isagoch)
