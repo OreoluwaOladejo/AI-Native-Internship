@@ -34,7 +34,7 @@ I used short, specific commit messages that clearly describe each change:
 
 ## Peer Review
 
-My pull request was reviewed by [isagoch].
+My pull request was reviewed by isagoch.
 Feedback received:
 The reviewer suggested including a brief explanation of why environment files should be excluded using `.gitignore`.
 Response:
@@ -42,6 +42,6 @@ I updated the README to explain that `.env` files may contain sensitive informat
 
 ## Evidence
 
-- [Issue Screenshot](screenshots/01-issue.png)
-- [Pull Request](https://github.com/OreoluwaOladejo/AI-Native-Internship/pull/2)
-- [Peer Review Comment]
+[link to your issue] → https://github.com/OreoluwaOladejo/AI-Native-Internship/issues/1
+[link to your PR] → https://github.com/OreoluwaOladejo/AI-Native-Internship/pull/2
+[friend's GitHub username] → isagoch
